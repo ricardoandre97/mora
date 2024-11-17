@@ -1,0 +1,71 @@
+/* styles.css */
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #FBE7C6; /* Outer pastel background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.wrapper {
+    background-color: #D5E8D4; /* Inner pastel color for encapsulated content */
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 350px;
+    text-align: center;
+}
+
+.image-container img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%; /* Rounded image */
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+.button img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.button:hover {
+    transform: scale(1.05);
+}
+
+.whatsapp {
+    background-color: #25D366; /* Light green for WhatsApp */
+}
+
+.email {
+    background-color: #EA4335; /* Red for Gmail */
+}
+
+.phone {
+    background-color: #34A8FF; /* Light blue for Call */
+}
